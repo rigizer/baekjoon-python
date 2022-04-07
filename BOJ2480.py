@@ -16,5 +16,5 @@ def calc(a, b, c):
     if c > a and c > b:
         return c * 100
 
-a, b, c = input().split()
-print(calc(int(a), int(b), int(c)))
+a, b, c = map(int, input().split())
+print(calc(a, b, c))
