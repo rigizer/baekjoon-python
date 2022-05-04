@@ -4,7 +4,7 @@ n = int(input())
 idx = 0
 result = 0
 
-for i in range(0, 10001):
+for i in range(666, 999999999):
     if '666' in str(i):
         idx += 1
         if idx == n:
